@@ -10,7 +10,7 @@ for ChangeLog go to [CHANGELOG.md](https://github.com/sheikalthaf/ngu-carousel/b
 
 ## Demo
 
-Demo available [Here](https://sheikalthaf.github.io/ngx-carousel)
+Demo available [Here](https://sheikalthaf.github.io/ngu-carousel)
 
 ## Installation
 

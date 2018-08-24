@@ -1,33 +1,41 @@
 {
-  "name": "ngu-carousel",
+  "name": "@ngu/carousel",
   "version": "1.4.8",
-  "description": "Angular Universal carousel",
-  "scripts": {
-    "transpile": "ngc ",
-    "package": "rollup -c",
-    "minify":
-      "uglifyjs dist/bundles/ngucarousel.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ngucarousel.umd.min.js",
-    "build": "npm run transpile && npm run package && npm run minify",
-    "postinstall": "npm run build"
+  "description": "Angular universal carousel.",
+  "main": "bundles/ngucarousel.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular 2",
+    "angular 4",
+    "rescarousel",
+    "ng-rescarousel",
+    "ng-resCarousel",
+    "responsive carousel",
+    "carousel",
+    "angular carousel",
+    "slider"
+  ],
+  "author": "Sheik Althaf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheikalthaf/ngu-carousel"
   },
-  "devDependencies": {
-    "@angular/compiler": "^4.2.4",
-    "@angular/compiler-cli": "^4.2.4",
-    "@types/hammerjs": "^2.0.35",
-    "rollup": "^0.43.0",
-    "typescript": "^2.3.4",
-    "uglify-js": "^3.0.19"
+  "bugs": {
+    "url": "https://github.com/sheikalthaf/ngu-carousel/issues"
   },
-  "dependencies": {
-    "@angular/common": "^4.2.4",
-    "@angular/core": "^4.2.4",
-    "@angular/platform-browser": "^4.2.4",
-    "hammerjs": "^2.0.8",
-    "rxjs": "^5.5.2"
-  },
+  "readme": "https://github.com/sheikalthaf/ngu-carousel/blob/master/README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sheikalthaf/ngu-carousel/blob/master/LICENSE"
+    }
+  ],
   "peerDependencies": {
-    "@angular/common": ">=4.0.0",
     "@angular/core": ">=4.0.0",
-    "@angular/platform-browser": ">=4.0.0"
+    "@angular/common": ">=4.0.0",
+    "rxjs": ">=5.0.1"
   }
 }
